@@ -1,0 +1,825 @@
+<html>
+    <head>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+            body{
+                background-color:#E5CE97;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+            .land{
+                width:700px;
+                justify-content:center;
+                align-items:center;
+                height:1900px;
+                background-color:#5B0017;
+                
+            }
+            @font-face{
+               font-family:myfont;
+               src:url("CotorisBold.otf");
+            }
+            .Group {
+                position:relative;
+                width:50px;
+                height:50px;
+                left:38px;
+                top:20px;
+            }
+            .artifact{
+                position:relative;
+                width:57px;
+                height:40px;
+                left:-19px;
+                top:70px;
+            }
+            .booknow{
+                width:100px;
+                height:25px;
+                position:absolute;
+                background-color:#CC9D2F;
+                left:965px;
+                top:45px;
+                color:#5B0017;
+                text-align:center;
+                justify-content:center;
+                padding-top:5px;
+            }
+            .picture{
+                left:740px;
+              position:absolute;
+              top:180px;
+              width:330px;
+              height:250px;
+            }
+            .rectangleimg{
+               left:800px;
+               position:absolute;
+               top:530px;
+               width:360px;
+               height:380px;
+            }
+            .rectangle2{
+                left:440px;
+                position:absolute;
+                top:25px;
+                width:300px;
+                height:470px;
+            }
+            .txt{
+                width:400px;
+                height:102px;
+                background-color:#5b001774;
+                position:relative;
+                left:30px;
+                top:140px;
+                color:white;
+                font-family:myfont;
+                font-size:45px;
+                padding:15px;
+            }
+            .nkl{
+                position:relative;
+                font-size:10px;
+                font-family:Inter;
+                left:50px;
+                top:140px;
+                color:#FFFFFF;
+                word-spacing:2px;
+
+            }
+            .jbw{
+                position:relative;
+                text-align:center;
+                justify-content:center;
+                width:100px;
+                height:30px;
+                border:2px solid #CC9D2F;
+                color:#CC9D2F;
+                left:50px;
+                top:155px;
+                font-size:15px;
+                font-family:myfont;
+            }
+            .circle{
+                position:relative;
+                width:60px;
+                height:60xp;
+                left:50px;
+                top:-10px;
+            }
+            .img3{
+                width:200px;
+                height:300px;
+                position:absolute;
+                left:450px;
+                top:600px;
+            }
+            .kv{
+                position:absolute;
+                font-size:30px;
+                font-family:myfont;
+                left:680px;
+                top:567px;
+                color:#FFFFFF;
+
+            }
+            .vk{
+                position:absolute;
+                font-size:10px;
+                left:682px;
+                top:670px;
+                font-family:Inter;
+                color:#FFFFFF;
+            }
+            .backgroundborder{
+                position:absolute;
+                width:120px;
+                height:40px;
+                left:685px;
+                top:720px;
+
+            }
+            .img4{
+                width:70px;
+                height:70px;
+                position:relative;
+                left:160px;
+                top:795px;
+            }
+            .img5{
+                width:70px;
+                height:70px;
+                position:relative;
+                left:188px;
+                top:795px;
+            }
+            .img6{
+                width:70px;
+                height:70px;
+                position:relative;
+                left:215px;
+                top:795px;
+            }
+            .hy{position:absolute;
+                left:1065px;
+                top:41px;
+                width:30px;
+                height:38px;
+            }
+            .Dinner{
+                position:relative;
+                width:330px;
+                height:280px;
+                left:270px;
+                top:720px;
+            }
+            .dintext{
+                position:relative;
+                font-size:12px;
+                font-family:Inter;
+                left:43px;
+                top:30px;
+                color:#243054;
+                line-height:1.8em;
+            }
+            .person{
+                position:relative;
+                width:200px;
+                height:40px;
+                left:50px;
+                top:40px;
+            }
+            .jbd{
+                position:relative;
+                width:30px;
+                height:60px;
+                left:-204px;
+                top:76px;
+            }
+            .about{
+            font-family:Cotoris;
+            color:#FFFFFF;
+            position:absolute;
+            left:630px;
+            top:42px;
+            font-size:12px;
+            }
+            .menu{
+                font-family:Cotoris;
+                color:#FFFFFF;
+                position:absolute;
+                left:710px;
+                top:42px;
+                font-size:12px;
+            }
+            .venue{
+                font-family:Cotoris;
+                color:#FFFFFF;
+                position:absolute;
+                left:780px;
+                top:42px;
+                font-size:12px;
+            }
+            .events{
+                font-family:Cotoris;
+                color:#FFFFFF;
+                position:absolute;
+                left:850px;
+                top:42px;
+                font-size:12px;
+            }
+            .hh{
+                position:relative;
+                background-color:#CC9D2F;
+                width:285px;
+                height:280px;
+                top:425px;
+                left:50px;
+            }
+           .last{
+               position:relative;
+               width:700px;
+               height:370px;
+               left:0px;
+               top:500px;
+               color:#FFFFFF;
+
+           }
+           .aj{
+            position:relative;
+            width:700px;
+            height:215px;
+            background-color:#CC9D2F;
+            left:0px;
+            top:500px;
+           }
+           .twomenu{
+            position:relative;
+            width:350px;
+            top:100px;
+            left:170px;
+            height:16px;
+           }
+           hr{
+            position:absolute;
+            width:700px;
+            height:0px;
+            left:0px;
+            top:170px;   
+            border: 1px solid #243054;
+           }
+           .social{
+            position:relative;
+            width:140px;
+            height:12px;
+            left:-60px;
+            top:177px;
+           }
+           .logo{
+            position:relative;
+            width:100px;
+            height:30px;
+            left:-185px;
+            top:28px;
+           }
+           .ourstory{
+            position:absolute;
+            left:410px;
+            width:700px;
+            justify-content:center;
+            align-items:center;
+            height:1600px;
+            background-color:#CC9D2F;
+            top:2000px;
+           }
+           .us{
+            position:absolute;
+            left:250px;
+            top:30px;
+            font-size:13px;
+            font-family:myfont;
+            color:#5B0017;
+           }
+           .su{
+            position:absolute;
+            left:320px;
+            top:30px;
+            font-size:13px;
+            font-family:myfont;
+            color:#5B0017;
+           }
+           .uu{
+            position:absolute;
+            left:385px;
+            top:30px;
+            font-size:13px;
+            font-family:myfont;
+            color:#5B0017;
+           }
+           .lu{
+            position:absolute;
+            left:455px;
+            top:30px;
+            font-size:13px;
+            font-family:myfont;
+            color:#5B0017;
+           }
+           .mainhead{
+            position:absolute;
+            left:80px;
+            top:150px;
+            color:#5B0017;
+            font-size:40px;
+            font-family:myfont;
+           }
+           .headtxt{
+            position:absolute;
+            left:80px;
+            top:240px;
+            font-size:12px;
+            color:#5B0017;
+            font-family:Inter;
+           }
+           .whitetxt{
+            position:absolute;
+            left:410px;
+            top:190px;
+            color:#FFFFFF;
+            font-size:16px;
+            font-family:myfont;
+           }
+           .further{
+            position:absolute;
+            left:410px;
+            top:230px;
+            font-size:12px;
+            font-family:Inter;
+            color:#5B0017;
+           }
+           .lmn{
+            position:absolute;
+            left:410px;
+            top:285px;
+            font-size:12px;
+            font-family:Inter;
+            color:#5B0017;
+           }
+           .nlm{
+            position:absolute;
+            left:407px;
+            top:340px;
+            font-size:12px;
+          font-family:Inter;
+          color:#5B0017;
+           }
+           .kgh{
+            position:absolute;
+            left:407px;
+            top:430px;
+            font-size:12px;
+            font-family:Inter;
+            color:#5B0017;
+           }
+           .twogroup{
+            position:relative;
+            width:50px;
+            height:50px;
+            left:40px;
+            top:35px;
+           }
+           .twoarti{
+            position:relative;
+            width:60px;
+            height:40px;
+            left:-17px;
+            top:83px;
+           }
+           .button{
+            position:relative;
+            left:450px;
+            top:20px;
+            width:113px;
+            height:42px;
+           }
+        .proto2{
+            position:absolute;
+            width:400px;
+            height:500px;
+            left:25px;
+            top:10px;
+        }
+        .storyimg{
+            position:absolute;
+            width:150px;
+            height:300px;
+            left:50px;
+            top:380px;
+        }
+        .door{
+            position:absolute;
+            width:145px;
+            height:300px;
+            left:230px;
+            top:350px;
+        }
+        .history{
+            position:relative;
+            width:500px;
+            height:250px;
+            left:100px;
+            top:700px;
+        }
+        .iyq{
+            position:relative;
+            width:700px;
+            top:760px;
+            left:0px;
+            height:280px;
+            background-color:#243054;
+        }
+        .iwe{
+            position:relative;
+            width:300px;
+            height:280px;
+            left:400px;
+            top:0px;
+        }
+        .map{
+            position:relative;
+            width:400px;
+            height:200px;
+            top:-240px;
+            left:250px;
+            
+        }
+        .jjw{
+            position:relative;
+            width:180px;
+            height:200px;
+            background-color:#5B0017;
+            left:70px;
+            top:-440px;
+        }
+        .io{
+            position:relative;
+            width:100px;
+            height:30px;
+            left:300px;
+            top:-350px;
+        }
+        .textlogo{
+            position:absolute;
+            width:320px;
+            height:20px;
+            left:200px;
+            top:410px;
+        }
+        .hrline{
+            position:relative;
+            width:700px;
+            height:0px;
+            left:0px;
+            top:-230px;
+            border:1px solid #243054;
+        }
+        .idh{
+            position:relative;
+            width:140px;
+            height:12px;
+            left:280px;
+            top:-220px
+        }
+        .pooko{
+           position:absolute;
+           width:700px;
+           height:1800px;
+           left:410px;
+           top:3650px;
+           background-color:#5B0017;
+        }
+        .fg{
+            position:absolute;
+            font-size:13px;
+            font-family:myfont;
+            color:#FFFFFF;
+            left:230px;
+            top:35px;
+        }
+        .gh{
+            position:absolute;
+            font-size:13px;
+            font-family:myfont;
+            color:#FFFFFF;
+            left:310px;
+            top:35px;
+        }
+        .bcd{
+            position:absolute;
+            font-size:13px;
+            font-family:myfont;
+            color:#FFFFFF;
+            left:380px;
+            top:35px;
+        }
+        .gfd{
+            position:absolute;
+            font-size:13px;
+            font-family:myfont;
+            color:#FFFFFF;
+            left:450px;
+            top:35px;
+        }
+        .dd{
+            position:absolute;
+            font-size:12px;
+            color:#CC9D2F;
+            font-family:Inter;
+            left:120px;
+            top:200px;
+        }
+        .discover{
+            position:absolute;
+            color:#FFFFFF;
+            font-size:40px;
+            font-family:myfont;
+            left:120px;
+            top:200px;
+        }
+        .uhg{
+            position:absolute;
+            color:#FFFFFF;
+            font-size:11px;
+            font-family:Inter;
+            left:395px;
+            top:250px;
+            line-height: 1.5em;
+        }
+        .all{
+            position:absolute;
+            color:#FFFFFF;
+            font-size:14px;
+            font-family:Inter;
+            left:100px;
+            top:380px;
+        }
+        .feast{
+            position:absolute;
+            color:#ffffff96;
+            font-size:13px;
+            font-family:Inter;
+            left:145px;
+            top:380px;
+        }
+        .coffee{
+            position:absolute;
+            color:#ffffff96;
+            font-size:13px;
+            font-family:Inter;
+            left:200px;
+            top:380px;
+        }
+        .cocktails{
+            position:absolute;
+            color:#ffffff96;
+            font-size:13px;
+            font-family:Inter;
+            left:260px;
+            top:380px;
+        }
+        .desert{
+            position:absolute;
+            color:#ffffff96;
+            font-size:13px;
+            font-family:Inter;
+            left:340px;
+            top:380px;
+        }
+        .item1{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:50px;
+            top:450px;
+        }
+        .item2{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:260px;
+            top:450px;
+        }
+        .item3{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:470px;
+            top:450px;
+        }
+        .item4{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:50px;
+            top:650px;
+        }
+        .item5{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:260px;
+            top:650px;
+        }
+        .item6{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:470px;
+            top:650px;
+        }
+        .item7{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:50px;
+            top:850px;
+        }
+        .item8{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:260px;
+            top:850px;
+        }
+        .item9{
+            position:absolute;
+            width:180px;
+            height:170px;
+            left:470px;
+            top:850px;
+        }
+        .showmore{
+            position:absolute;
+            width:140px;
+            height:40px;
+            left:290px;
+            top:1100px;
+            border:1px solid #FFFFFF;
+            color:#FFFFFF;
+            font-size:13px;
+            font-family:myfont;
+            text-align:center;
+            justify-content:center;
+            line-height:40px;
+        }
+        .coomunication{
+            position:absolute;
+            width:700px;
+            height:350px;
+            left:0px;
+            top:1200px;
+
+        }
+        .footer{
+            position:absolute;
+            width:701px;
+            height:200px;
+            left:0px;
+            top:1600px;
+        }
+        .ghi{
+            position:relative;
+            width:50px;
+            height:50px;
+            left:40px;
+            top:38px;
+        }
+        .lfh{
+            position:relative;
+            width:57px;
+            height:40px;
+            left:-17px;
+            top:88px;
+        }
+       .iho{
+        position:relative;
+        width:113px;
+        height:42px;
+        left:445px;
+        top:26px;
+       }
+       .efi{
+        position:absolute;
+        width:350px;
+        height:500px;
+        left:30px;
+        top:10px;
+       }
+        </style>
+    </head>
+    <body>
+        <div class="land">
+            <img  class="Group"src="Group 212.png">
+            <img  class="artifact"src="whiteartifact.png">
+            <div class="booknow">Book now</div>
+            <img class="hy"src="Group.png">
+            <img class="picture"src="image 1.png">
+            <img  class="rectangleimg" src="Rectangle.png">
+            <p class="kv">A  distinctive dining destination <br>inspired br the culture.</p>
+            <p class="vk">Experience Al Balad old town of Jeddah vibes.</p>
+            <img class="backgroundborder"src="backgroundborder.png">
+            <img  class="rectangle2" src="Rectangle.png">
+            <img  class="img3" src="image 3.png">
+            <img  class="img4" src="image 4 (1).png">
+            <img  class="img5"src="image 5.png">
+            <img class="img6" src="image 6.png">
+            <div class="txt">Taste the authentic <br>Saudi cuisine </div>
+            <p class="nkl">Among the best Saudi chefs in the world, <br>serving you something beyond flavor.</p>
+            <div class="jbw">Our menu</div>
+            <img class="circle"src="circle.png">
+            <img class="Dinner"src="Dinner.png">
+            <p class="about">About</p>
+            <p class="menu">Menu</p>
+            <p class="venue">Venue</p>
+            <p class="events">Events</p>
+            <div class="hh"><p class="dintext">You can't go wrong with chicken <br>
+            Mandi, I had it twice. The chicken<br> was cooked perfectly, juicy & soft<br>
+            (usually mandi chicken is a bit dry). I<br> would defiantly recommend it.</p>
+        <img class="person"src="person.png">
+        <img class="jbd"src="jbd.png"></div>
+            <img class="last" src="last.png" >
+            <div class="aj"><img class="twomenu" src="Menu.png"><hr><img class="social"src="Social.png">
+            <img class="logo"src="logo.png">
+        </div>
+        </div>
+        
+        <div class="ourstory">
+            <P class="us">About</P>
+            <P class="su">Menu</P>
+            <p class="uu">Venue</p>
+            <P class="lu">Events</P>
+            <p class="mainhead">Our Story</p>
+            <p class="headtxt">We're an absolute in the Saudi cuisine-themed<br>restraunts.</p>
+            <p class="whitetxt">One of the best restraunts in Saudi Arabia</p>
+            <p class="further">You one direction to high-quailty saudi feats,<br>
+                since 1998 we served in Saudi Arabia.<br></p>
+            <p class="lmn">Locals who are proud of the country and want to<br>
+            introduce it to visitors from around the world.</p>  
+            <P class="nlm">We are perfectly positioned to provide our guests<br>
+            with an extraodinary health experience unlike any <br>
+            they've ever tasted. We can confidently claim that<br>
+        our menu is unlike anything else offered in the <br>
+        industry.</P>
+        <p class="kgh">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Vestibulum finibus mauris nec <br>
+            tincidunt varius. Ut sagittis, lorem at bibendum <br>ornare, maruis neque venentatis justo, ut gravida <br>
+            mi neque eu lorem. Vestibulum auctor leo sit amet<br>vulputate mollis. Curabitur ac lorem fekis. Morbi<br>
+            ullamcorper maximus lorem.</p>  
+            <img class="twogroup"src="2Group.png">
+            <img class="twoarti"src="artifact.png">
+            <img class="button" src="button.png">
+            <img class="proto2"src="proto2.png">
+            <img class="storyimg"src="storyimg.png">
+            <img class="door"src="door.png">
+            <img class="history"src="History.png">
+            <div class="iyq"><img class="iwe"src="iwe.png">
+            <img class="map"src="Map.png">
+            <div class="jjw"></div>
+            <img class="io"src="logo.png">
+            <img class="textlogo"src="Menu.png">
+            <hr class="hrline">
+            <img class="idh"src="Social.png">
+            </div>
+        </div>
+        <div class="pooko">
+            <p class="fg">About</p>
+            <p class="gh">Menu</p>
+            <p class="bcd">Venue</p>
+            <p class="gfd">Events</p>
+            <p class="dd">OUR MENU</p>
+            <p class="discover">Discover<br>Our menu</p>
+            <p class="uhg">There is a wide selection of choices served by top<br>Saudi chefs, prepared using best quality local<br> ingredients.</p>
+            <p class="all">All</p>
+            <p class="feast">Feast</p>
+            <p class="coffee">Coffee</p>
+            <p class="cocktails">Cocktails</p>
+            <p class="desert">desert</p>
+            <img class="item1"src="Item 1.png">
+            <img class="item2" src="Item 2.png">
+            <img class="item3" src="Item 3.png">
+            <img class="item4"src="Item 4.png">
+            <img class="item5"src="Item 5.png">
+            <img class="item6" src="Item 6.png">
+            <img class="item7"src="Item 7.png">
+            <img class="item8"src="Item 8.png">
+            <img class="item9"src="Item 9.png">
+            <div class="showmore">Show more </div>
+            <img class="coomunication" src="Comunication.png">
+            <img class="footer"src="Footer.png">
+            <img class="ghi"src="Group 212.png">
+            <img class="lfh"src="whiteartifact.png">
+            <img class="iho"src="2ndbutton.png">
+            <img class="efi"src="proto2.png">
+        </div>
+    </body>
+    </html>
